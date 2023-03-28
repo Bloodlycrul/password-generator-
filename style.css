@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    background: linear-gradient(to right bottom, #ffa585, #45c5d8 );
+    color: white;
+}
+
+
+.container{
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    box-shadow: 8px 8px 4px #909090, 8px 8px 0px #575757;
+}
+
+.container h1{
+    margin-block: 10px;
+    width: 331px;
+}
+
+
+.input-field input{
+    border: none;
+    padding: 12px;
+    width: 331px;
+    background-color: white;
+    margin-block : 7px;
+    border-radius : 7px
+}
+
+.input-range input{
+    width: 331px;
+    background: black;
+}
+
+
+.pass-len{
+    display: flex;
+    justify-content: space-between;
+    width: 331px;
+    margin-block: 7px ;
+
+}
+
+.pass-len p{
+    font-size: 20px;
+}
+
+.check-field{
+    display: flex;
+    width: 331px;
+    justify-content: space-between;
+    margin-block: 10px;
+}
+
+.check-field label{
+    font-size: 20px;
+}
+
+.check-field input[type="checkbox"]{
+    width: 20px;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    width: 331px;
+    margin-block: 10px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+ 
+}
